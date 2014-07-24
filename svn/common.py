@@ -81,7 +81,7 @@ class CommonClient(object):
             'entry#path': entry_attr['path'],
             'entry#revision': int(entry_attr['revision']),
             'url': root.find('entry/url').text,
-            'relative_url': root.find('entry/relative-url').text,
+            # 'relative_url': root.find('entry/relative-url').text,
             'repository/root': root.find('entry/repository/root').text,
             'repository/uuid': root.find('entry/repository/uuid').text,
             'wc-info/wcroot-abspath': wcroot_abspath.text \
